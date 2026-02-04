@@ -2,8 +2,8 @@
 
 A robust, modular Command Line Interface (CLI) tool written in C for performing advanced linear algebra operations and computer vision kernel processing.
 
-![Project Demo](demo_screenshot.png)
-*(Replace 'demo_screenshot.png' with the actual path to your image if different)*
+![Project Demo]<img width="1920" height="1080" alt="demo_screenshot" src="https://github.com/user-attachments/assets/90f3ee3b-eb21-4d58-936b-b1b080db75f2" />
+
 
 ## 🚀 Overview
 This project is a high-performance matrix engine designed to handle 2D array manipulations safely and efficiently. Unlike standard calculator tools, this toolkit implements complex algorithms like **Spiral Traversal**, **Saddle Point Optimization**, and **2D Convolution** (Edge Detection) from scratch, with a focus on memory safety and input sanitization.
