@@ -13,9 +13,10 @@ It features a modular architecture, separating the interface (`main.c`), logic (
 ## ✨ Features
 
 ### 🔧 Core Operations
+* **Dynamic Memory Allocation**: No fixed size limits. Create matrices of any size supported by your system's RAM.
 * **Scalar Multiplication**: Scale vectors and matrices efficiently.
-* **Matrix Arithmetic**: Addition and Multiplication ($O(n^3)$) with dimension validation.
-* **Transposition & Rotation**: 90° clockwise rotation using in-place logic.
+* **Matrix Arithmetic**: Addition and Multiplication ($O(n^3)$) with internal memory management.
+* **Transposition & Rotation**: 90° clockwise rotation (returns new dynamically allocated matrix).
 * **Trace Calculation**: Diagonal summation for square matrices.
 
 ### 🧠 Advanced Algorithms
@@ -24,6 +25,7 @@ It features a modular architecture, separating the interface (`main.c`), logic (
 * **Saddle Point Detection**: Identifies critical points that are minimums in their row but maximums in their column (Minimax logic).
 
 ### 🛡️ Safety & Robustness
+* **Memory Safety**: Full `malloc` and `free` implementation to prevent memory leaks.
 * **Input Sanitization**: Custom `get_safe_int()` function prevents infinite loops and buffer overflows from invalid user input.
 * **Boundary Protection**: Convolution logic automatically handles matrix borders to prevent segmentation faults.
 
