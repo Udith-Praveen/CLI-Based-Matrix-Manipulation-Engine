@@ -7,8 +7,8 @@ int main() {
     
     //Get Dimensions
     while(1){
-        r = get_safe_int("Enter Rows: ");
-        c = get_safe_int("Enter Columns: ");
+        r = get_safe_int("Enter the number of Rows you require in the Matrix: ");
+        c = get_safe_int("Enter the number of Columns you require in the Matrix: ");
         if (r > 0 && c > 0) break;
         printf("Dimensions must be > 0.\n");
     }
@@ -80,4 +80,5 @@ int main() {
     printf("Memory freed. Exiting.\n");
 
     return 0;
+
 }
