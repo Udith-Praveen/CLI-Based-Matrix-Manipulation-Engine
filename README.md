@@ -2,7 +2,8 @@
 
 A robust, modular Command Line Interface (CLI) tool written in C for performing advanced linear algebra operations and computer vision kernel processing.
 
-![Project Demo]<img width="1920" height="1080" alt="demo_screenshot" src="https://github.com/user-attachments/assets/90f3ee3b-eb21-4d58-936b-b1b080db75f2" />
+[Project Demo]<img width="1920" height="1080" alt="demo_screenshot" src="https://github.com/user-attachments/assets/35079bae-0086-492b-98dc-27fcc743f5df" />
+
 
 
 ## 🚀 Overview
